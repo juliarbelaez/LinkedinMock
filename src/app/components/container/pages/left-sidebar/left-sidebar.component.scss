@@ -1,0 +1,94 @@
+.sidebar-profile-box {
+  background: #ffff;
+  border-radius: 5%;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  box-shadow: 0.2px 0.2px 0.2px #cdcdcd;
+}
+.sidebar-profile-box img {
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+}
+.sidebar-profile-info {
+  padding: 0 30px 10px 10px;
+  padding-left: 30px;
+}
+.sidebar-profile-info img {
+  width: 90px;
+  border-radius: 50%;
+  background: #ffff;
+  padding: 4px;
+  margin-top: -45px;
+}
+.sidebar-profile-info h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+.sidebar-profile-info h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+  line-height: 20px;
+}
+.sidebar-profile-info ul {
+  list-style: none;
+  margin: 20px 0;
+  border-top: 1px solid #dcdcdc;
+}
+.sidebar-profile-info ul li {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 13px;
+}
+.sidebar-profile-info ul li span {
+  float: right;
+  color: #045be6;
+}
+.premium h5 {
+  font-size: 11px;
+  color: #777;
+}
+.square {
+  color: rgb(255, 215, 0);
+  border-radius: 5%;
+}
+.bookmark {
+  text-decoration: none;
+  color: #222;
+}
+
+.ver-mas {
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+}
+.sidebar-activity {
+  padding: 0 30px 10px 10px;
+  padding-left: 30px;
+  text-decoration: none;
+  background-color: #ffff;
+  list-style: none;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #cdcdcd;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  margin-top: 10px;
+  box-shadow: 0.2px 0.2px 0.2px #cdcdcd;
+}
+
+.sidebar-activity ul {
+  list-style: none;
+}
+.sidebar-activity ul li a {
+  color: #045be6;
+}

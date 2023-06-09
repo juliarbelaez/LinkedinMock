@@ -1,0 +1,82 @@
+<div class="create-post">
+  <div class="create-post-input">
+    <img src="assets/user.JPG" alt="" />
+    <button (click)="abrirDialogoFormulario()" mat-stroked-button>
+      Crear una publicación
+    </button>
+  </div>
+  <div class="images">
+    <ul>
+      <li>
+        <button mat-button class="photo">
+          <mat-icon>photo_camera</mat-icon>Foto
+        </button>
+      </li>
+      <li>
+        <button mat-button class="video">
+          <mat-icon>smart_display</mat-icon>Video
+        </button>
+      </li>
+      <li>
+        <button mat-button class="calendar">
+          <mat-icon>calendar_month</mat-icon>Calendario
+        </button>
+      </li>
+      <li>
+        <button mat-button class="article">
+          <mat-icon>article</mat-icon>Articulo
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div>
+  <button mat-button [matMenuTriggerFor]="menu">
+    Fecha de publicación<mat-icon>expand_more</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="ordenarEstadosMenorMayor()">
+      Ordenar por menor fecha
+    </button>
+    <button mat-menu-item (click)="ordenarEstadosMayorMenor()">
+      Ordenar por mayor fecha
+    </button>
+  </mat-menu>
+</div>
+
+<mat-card class="posts" *ngFor="let estado of estados" class="example-card">
+  <div class="post">
+    <mat-card-header class="post-author">
+      <div class="image">
+        <img src="{{ estado.userImg }}" alt="" width="70" />
+      </div>
+      <div class="content">
+        <div class="text-container">
+          <mat-card-title>{{ estado.user }}</mat-card-title>
+          <mat-card-subtitle>{{ estado.puesto }}</mat-card-subtitle>
+          <mat-card-subtitle class="author-content">{{
+            estado.fecha | date
+          }}</mat-card-subtitle>
+        </div>
+        <div class="button-container">
+          <button mat-stroked-button color="primary">+ Seguir</button>
+        </div>
+      </div>
+    </mat-card-header>
+  </div>
+
+  <mat-card-content class="text"> {{ estado.texto }}</mat-card-content>
+  <mat-card-content>
+    <img src="{{ estado.image }}" alt="" width="100%"
+  /></mat-card-content>
+  <mat-card-actions>
+    <button mat-button><mat-icon>recommend</mat-icon>Recomendar</button>
+    <button mat-button><mat-icon>rate_review</mat-icon>Comentar</button>
+    <button mat-button><mat-icon>share</mat-icon>Compartir</button>
+    <button mat-button><mat-icon>send</mat-icon>Enviar</button>
+    <button mat-button (click)="eliminarEstado(estado)">
+      <mat-icon>delete</mat-icon>Eliminar
+    </button>
+  </mat-card-actions>
+</mat-card>

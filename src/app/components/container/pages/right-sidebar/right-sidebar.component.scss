@@ -1,0 +1,117 @@
+.sidebar-profile-img img {
+  width: 50px;
+  border-radius: 50%;
+  background: #ffff;
+  padding: 4px;
+}
+.button {
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+}
+.sidebar-news {
+  background-color: #ffff;
+  padding: 0 30px 10px 10px;
+  padding-left: 30px;
+  background: #ffff;
+  border-radius: 5%;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+.sidebar-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+  line-height: 20px;
+}
+.footer {
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.footer a {
+  text-decoration: none;
+  color: #777;
+}
+.sidebar-ad {
+  background-color: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 12px 0;
+  font-size: 12px;
+  border-radius: 5%;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+.sidebar-ad img {
+  width: 75px;
+  border-radius: 50%;
+  margin: 10px;
+}
+h5 {
+  font-size: 14px;
+}
+.button-add {
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  font-weight: 500;
+}
+.sidebar-ad small {
+  float: right;
+  font-weight: 500;
+}
+.sidebar-ad {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.links a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  text-decoration: none;
+  color: #777;
+}
+.links {
+  padding: 15px 25px;
+  text-align: center;
+}

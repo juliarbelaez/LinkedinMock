@@ -1,0 +1,134 @@
+.create-post {
+  background: #ffff;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+.create-post-input {
+  padding: 20px 25px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.create-post-input img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.create-post-input button {
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 25px 25px;
+  border-top-right-radius: 25px 25px;
+  border-bottom-left-radius: 25px 25px;
+  border-bottom-right-radius: 25px 25px;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images ul li {
+  display: inline-block;
+  list-style: none;
+  margin-inline-end: 50px;
+  margin-top: 0px;
+}
+.images ul li .photo {
+  color: #378fe9;
+}
+.images ul li .calendar {
+  color: #c37d16;
+}
+.images ul li .video {
+  color: #5f9b41;
+}
+.images ul li .article {
+  color: #e16745;
+}
+.post {
+  background: #ffff;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.post .post-author img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 0px;
+}
+
+.post-author mat-card-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.post-author mat-card-subtitle {
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+mat-card {
+  background: #ffff;
+  padding: 20px 25px 5px;
+  margin: 5px 0 15px 20px;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  padding-bottom: 30px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.list button {
+  display: inline-block;
+  list-style: none;
+  margin-inline-end: 70px;
+  margin-top: 0px;
+}
+.post-author {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  margin-right: 150px;
+}

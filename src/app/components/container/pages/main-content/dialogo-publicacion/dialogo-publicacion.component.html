@@ -1,0 +1,50 @@
+<div class="create-post-input">
+  <div class="sidebar-profile">
+    <div class="sidebar-profile-img">
+      <img src="assets/user.JPG" alt="" />
+    </div>
+    <div class="sidebar-profile-info">
+      <h3>Juliana Quintero</h3>
+      <p>Publicar en Cualquiera</p>
+    </div>
+  </div>
+  <form [formGroup]="postForm">
+    <mat-form-field>
+      <mat-label>¿Sobre qué quieres hablar?</mat-label>
+      <textarea matInput [formControl]="postControl"></textarea>
+    </mat-form-field>
+  </form>
+
+  <div class="images">
+    <ul>
+      <li>
+        <button mat-button class="photo">
+          <mat-icon>photo_camera</mat-icon>Foto
+        </button>
+      </li>
+      <li>
+        <button mat-button class="video">
+          <mat-icon>smart_display</mat-icon>Video
+        </button>
+      </li>
+      <li>
+        <button mat-button class="calendar">
+          <mat-icon>calendar_month</mat-icon>Calendario
+        </button>
+      </li>
+      <li>
+        <button mat-button class="article">
+          <mat-icon>article</mat-icon>Articulo
+        </button>
+      </li>
+      <li>
+        <button mat-button class="more">
+          <mat-icon>more_horiz</mat-icon>Más
+        </button>
+      </li>
+    </ul>
+  </div>
+  <button (click)="guardar()" type="submit" mat-raised-button color="primary">
+    Publicar
+  </button>
+</div>
